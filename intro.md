@@ -16,7 +16,7 @@ Certainly! Below is a Bash script that accomplishes the tasks you described:
 ```bash
 #!/bin/bash
 
-# Specify the directory you want to run checksums on
+# Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up with the summary info
 directory="/path/to/your/directory"
 
 # Create checksum files
