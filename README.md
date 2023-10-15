@@ -17,6 +17,7 @@ Make sure to replace `/path/to/your/directory` with the actual path to the direc
 Once the software is downloaded or pulled via git, run the script:
 
 ```bash
+
 #!/bin/bash
 
 # Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up with the summary info
@@ -46,6 +47,7 @@ done
 echo "</ul></body></html>" >> "$html_file"
 
 echo "Checksums and HTML report generated successfully."
+
 ```
 
 You can run the script by saving it to a file (e.g., `checksums.sh`), making it executable with `chmod +x checksums.sh`, and then running `./checksums.sh`.
