@@ -11,7 +11,7 @@ sha512sum "$directory"/* > sha512sum.txt
 
 # Create an ordered list HTML file
 html_file="checksums.html"
-echo "<html><body><h1>Checksums</h1><ul>" > "$html_file"
+echo "<html><body><head><title>Checksum Report</title></head><h1>Checksums</h1><ul>" > "$html_file"
 
 # Generate checksum list and sort alphabetically by filename
 for file in "$directory"/*; do
