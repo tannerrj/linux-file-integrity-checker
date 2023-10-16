@@ -36,7 +36,7 @@ echo "<html><body><head><title>Checksum Report</title></head><h1>Checksums</h1><
 # Generate checksum list and sort alphabetically by filename
 for file in "$directory"/*; do
     filename=$(basename "$file")
-    echo "<li>$filename:</li><ul>" >> "$html_file"
+    echo "<li>$filename:<ul>" >> "$html_file"
     echo "<li>MD5: $(md5sum "$file" | awk '{print $1}')</li>" >> "$html_file"
     echo "<li>SHA1: $(sha1sum "$file" | awk '{print $1}')</li>" >> "$html_file"
     echo "<li>SHA256: $(sha256sum "$file" | awk '{print $1}')</li>" >> "$html_file"
