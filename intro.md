@@ -6,7 +6,7 @@ Linux Disk Space Tracker
 
 User
 ```
-Show me bash script that will run a md5, sha1sum, sha256sum, sha512sum on all files in a specified directory and create a md5 sum file, sha1sum file, sha256sumfile , sha512sum file and then create an ordered list html file sorted alphabetically by file name
+Show me bash script that will run a md5, sha1sum, sha256sum, sha512sum on all files in a specified directory and create a md5 sum file, sha1sum file, sha256sum file, sha512sum file and then create an ordered list html file sorted alphabetically by file name
 ```
 
 ### Results
