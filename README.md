@@ -69,15 +69,15 @@ You can run the script by saving it to a file (e.g., `checksums.sh`), making it 
 When you run this script, it will create the following files:
 
  1. `md5sum.txt`: Contains MD5 checksums for all files in the specified directory.
- ![md5sum.txt](images/checksum-report-iso_md5sum-sample.png)
+ ![md5sum](images/checksum-report-iso_md5sum-sample.png)
  2. `sha1sum.txt`: Contains SHA-1 checksums for all files in the specified directory.
- ![md5sum.txt](images/checksum-report-iso_sha1sum-sample.png)
+ ![sha1sum](images/checksum-report-iso_sha1sum-sample.png)
  3. `sha256sum.txt`: Contains SHA-256 checksums for all files in the specified directory.
- ![md5sum.txt](images/checksum-report-iso_sha256sum-sample.png)
+ ![sha256sum](images/checksum-report-iso_sha256sum-sample.png)
  4. `sha512sum.txt`: Contains SHA-512 checksums for all files in the specified directory.
- ![md5sum.txt](images/checksum-report-iso_sha512sum-sample.png)
+ ![sha512sum](images/checksum-report-iso_sha512sum-sample.png)
  5. `checksums.html`: An HTML report that lists the files and their corresponding checksums sorted alphabetically by filename.
- ![md5sum.txt](images/checksum-report-iso_sample.png)
+ ![checksums](images/checksum-report-iso_sample.png)
 
 
 
