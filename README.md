@@ -14,9 +14,11 @@ Make sure to replace `/path/to/your/directory` with the actual path to the direc
 
 ## Usage
 
-Once the software is downloaded or pulled via git, run the script:
+Once the software is downloaded or pulled via git:
 
-You can run the script by saving it to a file (e.g., `checksums.sh`), making it executable with `chmod +x checksums.sh`, and then running `./checksums.sh`.
+ 1. Change (`cd`) to the directory where the script is located (e.g., `cd script`)
+ 2. Make the backup script executable with the `chmod +x checksums.sh` command
+ 3. Run the command with `./checksums.sh`
 
 ## Guidelines
 
