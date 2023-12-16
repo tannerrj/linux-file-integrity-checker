@@ -4,6 +4,8 @@
 # Author: Rick Tanner via ChatGPT
 # Description: This script that will run a md5, sha1sum, sha256sum, sha512sum on all files in a specified directory and then create a md5 sum file, sha1sum file, sha256sum file, sha512sum file and then creates an ordered list html file sorted alphabetically by file name.
 # Project URL: https://github.com/tannerrj/linux-file-integrity-checker
+# License: MIT License
+
 
 # Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up with the summary info
 directory="/path/to/your/directory"
