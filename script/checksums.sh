@@ -7,10 +7,12 @@
 # License: MIT License
 
 
-# Step 1: Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up the summary info
+# Step 1: Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up the summary info.
 directory="/path/to/your/directory"
 
-# Create checksum files
+# Step 2: Script creates the checksum files.
+# MD5, SHA1, SHA256, and SHA512 checksums are calculated for all files in the specified directory.
+# Checksums are saved into separate files: md5sum.txt, sha1sum.txt, sha256sum.txt, and sha512sum.txt.
 md5sum "$directory"/* > md5sum.txt
 sha1sum "$directory"/* > sha1sum.txt
 sha256sum "$directory"/* > sha256sum.txt
