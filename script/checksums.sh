@@ -37,7 +37,7 @@ for file in "$directory"/*; do
     echo "</ul>" >> "$html_file"
 done
 
-# The HTML file is closed with appropriate tags.
+# Step 5: The HTML file is closed with appropriate tags.
 echo "</ul></body></html>" >> "$html_file"
 
 echo "Checksums and HTML report generated successfully.
