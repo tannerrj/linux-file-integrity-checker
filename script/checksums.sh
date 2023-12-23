@@ -23,7 +23,7 @@ sha512sum "$directory"/* > sha512sum.txt
 html_file="checksums.html"
 echo "<!DOCTYPE html><html lang=\"en\"><head><title>Checksum Report</title></head><h1>Checksums</h1><ul>" > "$html_file"
 
-# Generate checksum list and sort alphabetically by filename.
+# Step 4: Generate checksum list and sort alphabetically by filename.
 # For each file in the specified directory:
 # * A list item (li) is created for the filename.
 # * Sub-list (ul) is created with MD5, SHA1, SHA256, and SHA512 checksums for the file.
@@ -37,6 +37,7 @@ for file in "$directory"/*; do
     echo "</ul>" >> "$html_file"
 done
 
+# The HTML file is closed with appropriate tags.
 echo "</ul></body></html>" >> "$html_file"
 
 echo "Checksums and HTML report generated successfully.
