@@ -18,7 +18,8 @@ sha1sum "$directory"/* > sha1sum.txt
 sha256sum "$directory"/* > sha256sum.txt
 sha512sum "$directory"/* > sha512sum.txt
 
-# Create an ordered list HTML file
+# Step 3: Create an ordered list HTML file.
+# An HTML file named checksums.html is created with a header and an unordered list (ul).
 html_file="checksums.html"
 echo "<!DOCTYPE html><html lang=\"en\"><head><title>Checksum Report</title></head><h1>Checksums</h1><ul>" > "$html_file"
 
