@@ -40,4 +40,6 @@ done
 # Step 5: The HTML file is closed with appropriate tags.
 echo "</ul></body></html>" >> "$html_file"
 
+# step 6: Indicate the script has finished running.
+# A success message is echoed to the console indicating that checksums and the HTML report have been generated successfully.
 echo "Checksums and HTML report generated successfully.
