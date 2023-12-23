@@ -7,7 +7,7 @@
 # License: MIT License
 
 
-# Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up with the summary info
+# Step 1: Specify the directory you want to run checksums on - no trailing slash at the end of the directory path or else it will mess up the summary info
 directory="/path/to/your/directory"
 
 # Create checksum files
